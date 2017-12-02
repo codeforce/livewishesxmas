@@ -1,0 +1,5 @@
+# Ignore saved files
+*.xml
+
+# raw folder
+raw/

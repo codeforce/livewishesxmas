@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat;
+	font-family: 'Nunito', sans-serif;
+}
+@media screen and (max-width:600px) {
+	body {
+		background-repeat: repeat;
+	}
+	.final .title {
+		font-size: 50px;
+		padding:12px;
+	}
+	.final .from {
+		font-size: 24px;
+		padding:12px;
+	}	
+	.display .poem-lines .line {
+		font-size: 26px;
+		padding: 14px;
+	}	
+}
+@media screen and (min-width:600px) {
+	body {	
+	background-repeat: repeat;
+	}
+	.final .title {
+		font-size: 100px;
+		padding:24px;
+		font-weight:bold;
+	}
+	.final .from {
+		font-size: 36px;
+		padding:24px;
+		float:right
+	}
+	.display .poem-lines .line {
+		font-size: 36px;
+		padding: 24px;
+	}
+}
+.display .final {
+	height: 40%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-shadow:0px 0px 14px rgba(0,0,0,0.5);
+	color: #FFCC00;
+	overflow: hidden;
+}
+.display .poem-lines .line {
+/*	background-color: rgba(0,0,0,0.5);*/
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow:1px 1px 12px rgba(0,0,0,0.96);
+	width: 100%;
+	box-sizing:border-box;
+	color: #FFFFFF;
+	text-align: center;
+}
+.body-f {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+}
+.firew {
+	background-image: url(../images/firew.png);
+	background-repeat: no-repeat;
+	height: 375px;
+	width: 640px;
+	position: fixed;
+	background-size:contain;
+}
+.body-l {
+	margin: 0px;
+	padding: 0px;
+	background-color: #666666;
+}
+.copyright {
+	background-color: #FFFFFF;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 100px;
+	background-size:contain;
+	position:absolute;
+	right : 12px;
+	bottom: 12px;
+}
