@@ -95,7 +95,7 @@ endif;
           <?php endif; ?>
         </div>
         
-    <div class="footer"><?php printf("&copy; %s - <a href=\"http://www.fb.com/shalithasuranga\">Shalitha Suranga</a>",date("Y")); ?></div>
+	<div class="footer">Developed by <a href="https://github.com/codeforce" target="_blank">CodeForce</a></div>
         
     </div>
     
