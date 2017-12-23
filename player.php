@@ -42,7 +42,7 @@ else {
         </div>
         <div class="final" style="display:none">
         	<div class="title"><?php echo(LW_APP_WISH); ?></div>
-            <div class="from">Best Wishes From <?php echo($__->getParams("name")) ?></div>
+            <div class="from">Best Wishes From <strong><?php echo($__->getParams("name")) ?></strong></div>
         </div>
     </div>    
     
@@ -84,14 +84,14 @@ else {
 			setTimeout(
 				function() {
 			$('.final').fadeIn(1000);
-			$('body').css('background-image','');
-			$('body').addClass('body-f');
+			//$('body').css('background-image','');
+			//$('body').addClass('body-f');
 				},<?php echo($T); ?>
 			);	
 			
 			setTimeout(function(){
 			
-			setInterval(function(){
+			/*setInterval(function(){
 			
 			for(var k=0;k<500;k=k+86) {
 				setTimeout(function(){
@@ -111,7 +111,7 @@ else {
 			},7000);
 			
 			//firew
-			
+			/*
 			var screenX=$(window).width();
 			var screenY=$(window).height();
 			var fireY=$('.firew').height();
@@ -128,7 +128,7 @@ else {
 				setTimeout(function(){
 					$('.firew').fadeOut(100);
 				},80);
-			},280);
+			},280);*/
 			
 			
 			
