@@ -76,12 +76,15 @@ endif;
               
               <div class="label">Poem/Message</div>
               
-              <textarea id="jmsg" style="height:200px;" name="msg"><?php echo("Text Line 1\r\nText Line 2\r\nText Line 3\r\n........"); ?></textarea>
+			  <textarea id="jmsg" style="height:200px;" name="msg"><?php
+			  echo("I love to watch my Christmas tree,\nIt blinks and sparkles bright.\nSo many colours of Christmas time,\nIt sure is a Christmas delight."); 
+			 
+			 ?></textarea>
               
               <div class="label">Your Name</div>
               <input type="text" id="jname" name="name" value="Shalitha Suranga" />
               <div class="line"></div>
-              <input type="submit" id="jmake" value="Make Live Wish!" class="make" name="make" />
+              <input type="submit" id="jmake" value="Make it!" class="make" name="make" />
           </form>
           <?php else: ?>
           	<div>
@@ -89,7 +92,7 @@ endif;
                 <div class="line"></div>
                 	<input type="text" value="<?php echo(LW_APP_URL."play/".$_GET["done"]); ?>" />
                 <div class="line"></div>
-                	<input type="button" id="jmakeanother" value="Make Another Live Wish!" onclick="window.location='index.php'"/>
+                	<input type="button" id="jmakeanother" value="Make Another Live XMAS Wish!" onclick="window.location='index.php'"/>
                 <div class="line"></div>
             </div>
           <?php endif; ?>
