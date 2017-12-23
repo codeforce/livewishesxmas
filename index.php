@@ -90,7 +90,7 @@ endif;
           	<div>
             	Congratulations!. your Live Wish is ready. Share it using following URL.. <a href="<?php echo(LW_APP_URL."play/".$_GET["done"]); ?>" target="_blank">Play It!!</a>
                 <div class="line"></div>
-                	<input type="text" value="<?php echo(LW_APP_URL."play/".$_GET["done"]); ?>" />
+                	<input type="text" value="<?php echo(LW_APP_URL."play/".$_GET["done"]); ?>" onfocus="this.select();" />
                 <div class="line"></div>
                 	<input type="button" id="jmakeanother" value="Make Another Live XMAS Wish!" onclick="window.location='index.php'"/>
                 <div class="line"></div>
