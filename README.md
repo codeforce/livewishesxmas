@@ -1,9 +1,9 @@
 # LiveWishes
-Make Awesome wishes for your friends and Share anywhere!
+Make Awesome Xmas wishes for your friends and Share anywhere!
 
 ### Demo Application
 
-[http://www.fmmsa.co.za/livewishes/](http://www.fmmsa.co.za/livewishes/)
+[http://www.socialbox.co.com/livewishesxmas](http://www.socialbox.co.com/livewishesxmas)
 
 ### Setup
 
@@ -14,5 +14,7 @@ Make Awesome wishes for your friends and Share anywhere!
  
 ### Contribution
 
-<Add content>
+- Start it
+- Fork it
+- Submit us PR or Raise issues
 
