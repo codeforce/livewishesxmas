@@ -2,7 +2,7 @@ RewriteEngine on
 
 
 
-RewriteBase /livewishes/
+RewriteBase /livewishesxmas/
 
 
 RewriteRule ^play/([^/]*)$ player.php?id=$1 [L]
