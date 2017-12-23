@@ -82,7 +82,7 @@ endif;
 			 ?></textarea>
               
               <div class="label">Your Name</div>
-              <input type="text" id="jname" name="name" value="Shalitha Suranga" />
+              <input type="text" id="jname" name="name" value="CodeForce" />
               <div class="line"></div>
               <input type="submit" id="jmake" value="Make it!" class="make" name="make" />
           </form>
