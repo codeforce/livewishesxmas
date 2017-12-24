@@ -1,6 +1,17 @@
 <?php 
 require("global.config.php");
 
+
+//-------------------- take all existing poems as as array --------
+
+$poems = glob("data/poems/*.{txt}",GLOB_BRACE);
+$poemText = array();
+foreach($poems as $poem) {
+	$poemText[] = file_get_contents($poem);
+}
+
+$poem_json = json_encode($poemText);
+
 //-------------------- make ---------------------------------
 if(isset($_POST["make"])):
 	
@@ -76,10 +87,7 @@ endif;
               
               <div class="label">Poem/Message</div>
               
-			  <textarea id="jmsg" style="height:200px;" name="msg"><?php
-			  echo("I love to watch my Christmas tree,\nIt blinks and sparkles bright.\nSo many colours of Christmas time,\nIt sure is a Christmas delight."); 
-			 
-			 ?></textarea>
+			  <textarea id="jmsg" style="height:200px;" name="msg"></textarea>
               
               <div class="label">Your Name</div>
               <input type="text" id="jname" name="name" value="CodeForce" />
@@ -154,5 +162,15 @@ $('#jmusic').change(function(){
 	document.getElementById('mp').src='data/sounds/'+$(this).val();
 });
 
+
+var poems = <?php echo($poem_json); ?>;
+
+var loadPoem = function(){
+	$('#jmsg').val(poems[(parseInt(Math.random() * 10000) % poems.length)]);
+};
+
+$(document).ready(function () {
+	loadPoem();	
+});
 </script>
 </html>
