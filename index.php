@@ -85,7 +85,7 @@ endif;
                 <audio src="" id="mp" preload="auto"></audio>
               </div>
               
-              <div class="label">Poem/Message</div>
+              <div class="label">Poem/Message <a href="javascript:loadPoem();">Get Random</a></div>
               
 			  <textarea id="jmsg" style="height:200px;" name="msg"></textarea>
               
