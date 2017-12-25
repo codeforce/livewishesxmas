@@ -14,7 +14,7 @@ Make Awesome Xmas wishes for your friends and Share anywhere!
  
 ### Contribution
 
-- Start it
+- Star it
 - Fork it
 - Submit us PR or Raise issues
 
